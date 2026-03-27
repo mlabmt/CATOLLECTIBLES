@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolekcje | SACRUM ARENA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0a0a0a; color: #f5f5f5; }
+        .gold-border { border: 1px solid #d4af37; }
+        .card-gradient { background: linear-gradient(145deg, #1a1a1a, #0a0a0a); }
+    </style>
+</head>
+<body class="antialiased">
+    <nav class="p-6 border-b border-gray-800 flex justify-between">
+        <a href="index.html" class="font-bold uppercase tracking-tighter">← Powrót</a>
+        <div class="gold-gradient font-bold">SKLEP KOLEKCJONERSKI</div>
+    </nav>
+
+    <section class="py-12 px-6 max-w-6xl mx-auto">
+        <h1 class="text-4xl font-black mb-12 uppercase">Dropy i Limitowane Serie</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="card-gradient p-8 rounded-2xl gold-border">
+                <span class="text-xs bg-yellow-900 text-yellow-200 px-3 py-1 rounded-full uppercase font-bold">Trading Cards</span>
+                <h2 class="text-3xl font-bold mt-4 mb-2">Patroni 2.0</h2>
+                <p class="text-gray-400 mb-6">Kolekcjonerskie karty w stylu sportowym. Ilustracje Cyber-Icons + Statystyki Cnót.</p>
+                <div class="bg-gray-900 p-4 rounded-lg mb-6 border border-gray-800 text-sm italic">
+                    "Cierpliwość (Level 85) wygrywa z Gniewem w pojedynku duchowym."
+                </div>
+                <button class="w-full bg-white text-black font-bold py-3 rounded-lg uppercase">Kup Booster Pack (49 PLN)</button>
+            </div>
+
+            <div class="card-gradient p-8 rounded-2xl border border-gray-800">
+                <span class="text-xs bg-blue-900 text-blue-200 px-3 py-1 rounded-full uppercase font-bold">Physical + Digital</span>
+                <h2 class="text-3xl font-bold mt-4 mb-2">Kamienie Węgielne</h2>
+                <p class="text-gray-400 mb-6">Tabliczki z betonu i aluminium z chipem NFC. Odblokuj cyfrowy certyfikat rzadkości.</p>
+                <div class="flex gap-2 mb-6">
+                    <div class="w-12 h-12 bg-gray-800 rounded flex items-center justify-center text-xs">Ryba</div>
+                    <div class="w-12 h-12 bg-gray-800 rounded flex items-center justify-center text-xs">Kotwica</div>
+                    <div class="w-12 h-12 bg-gray-800 rounded flex items-center justify-center text-xs">Alfa</div>
+                </div>
+                <button class="w-full border border-gray-600 py-3 rounded-lg uppercase font-bold hover:bg-gray-800">Sprawdź dostępność (Drop 01)</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
